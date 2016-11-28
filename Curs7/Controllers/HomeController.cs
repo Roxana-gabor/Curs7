@@ -28,7 +28,7 @@ namespace Curs7.Controllers
         {
             return View();
         }
-
+       //Tema: Cursul 7 . Exercitiul 5
         //[ActionName("Authorize")]
         [Authorize(Roles ="Admin")]
         public ActionResult ThisMethodNeedsAuthorization()
